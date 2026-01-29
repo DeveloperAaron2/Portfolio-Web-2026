@@ -130,16 +130,10 @@ export default function SimpleNavbar() {
 
             <div className="mt-2 grid gap-2 border-t border-neutral-200 pt-2">
               <Link
-                href="/login"
-                className="rounded-xl px-3 py-2 text-sm text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900"
+                href="/contact"
+                className="rounded-xl bg-neutral-900 px-4 py-2 text-center text-sm font-medium text-white hover:opacity-90"
               >
-                Entrar
-              </Link>
-              <Link
-                href="/signup"
-                className="rounded-xl bg-neutral-900 px-3 py-2 text-sm font-medium text-white hover:opacity-90"
-              >
-                Empezar
+                Contact Info
               </Link>
             </div>
           </div>

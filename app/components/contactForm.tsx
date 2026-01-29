@@ -5,6 +5,7 @@ import { useState } from "react";
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -15,7 +16,7 @@ export default function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email }),
+        body: JSON.stringify({ name, email, message }),
       });
 
       if (!res.ok) throw new Error();
@@ -23,6 +24,7 @@ export default function ContactForm() {
       setStatus("success");
       setName("");
       setEmail("");
+      setMessage("");
     } catch {
       setStatus("error");
     }
@@ -49,6 +51,14 @@ export default function ContactForm() {
         placeholder="Correo electrónico"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        required
+        className="w-full rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-900"
+      />
+        <input
+        type="text"
+        placeholder="message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
         required
         className="w-full rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-neutral-900"
       />

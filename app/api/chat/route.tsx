@@ -1,6 +1,6 @@
 import { streamText, convertToModelMessages } from 'ai';
 import { google } from '@ai-sdk/google';
-import skills from '../../data/cv.json';
+import skills from '@/app/data/cv.json';
 
 export const runtime = 'nodejs';
 export const maxDuration = 30;

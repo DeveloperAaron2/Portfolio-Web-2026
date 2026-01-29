@@ -30,7 +30,7 @@ export default function DownloadCVPage() {
         </motion.p>
 
         <motion.a
-          href="/cv/CV_Aarón_2026.pdf"
+          href="/cv/CV_Aaron_2026_original.pdf"
           download
           className="mt-8 inline-block rounded-xl bg-white px-6 py-3 text-sm font-semibold text-neutral-900 transition"
           whileHover={{ scale: 1.03 }}

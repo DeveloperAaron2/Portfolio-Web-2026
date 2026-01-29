@@ -10,6 +10,7 @@
       { "name": "jQuery", "level": "Avanzado" },
       { "name": "Bootstrap", "level": "Avanzado" },
       { "name": "React", "level": "Intermedio" },
+      { "name": "Next.js", "level": "Intermedio" },
       { "name": "Angular", "level": "Intermedio", "tags": ["v19"] },
       { "name": "TypeScript", "level": "Intermedio" },
       { "name": "Web Components / JS nativo", "level": "Intermedio" }
@@ -28,7 +29,13 @@
       { "name": "Spring Boot (microservicios)", "level": "Intermedio" },
       { "name": "Hibernate", "level": "Intermedio" },
       { "name": "ASP (plataformas internas)", "level": "Intermedio" },
-      { "name": "Visual Basic Scripts", "level": "Básico" }
+      { "name": "Visual Basic Scripts", "level": "Básico" },
+      { "name": "Python", "level": "Intermedio" },
+      { "name": "Flask", "level": "Intermedio" },
+      { "name": "C#", "level": "Intermedio" },
+      { "name": ".NET", "level": "Intermedio" }
+
+
     ]
   },
   {
@@ -40,7 +47,9 @@
       { "name": "MySQL", "level": "Intermedio" },
       { "name": "MariaDB", "level": "Intermedio" },
       { "name": "MongoDB", "level": "Intermedio" },
-      { "name": "Firebase", "level": "Intermedio" }
+      { "name": "Firebase", "level": "Intermedio" },
+      { "name": "PostgreSQL", "level": "Básico" },
+      { "name": "SQLite", "level": "Básico" }
     ]
   },
   {
@@ -51,7 +60,8 @@
       { "name": "Jest", "level": "Intermedio" },
       { "name": "Playwright", "level": "Intermedio" },
       { "name": "React Testing Library", "level": "Intermedio" },
-      { "name": "JUnit", "level": "Intermedio" }
+      { "name": "JUnit", "level": "Intermedio" },
+      { "name": "Postman", "level": "Intermedio" }
     ]
   },
   {

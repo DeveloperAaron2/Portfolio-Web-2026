@@ -4,16 +4,52 @@
     "title": "Frontend",
     "subtitle": "Interfaces web, componentes y cuestionarios",
     "items": [
-      { "name": "HTML", "level": "Avanzado" },
-      { "name": "CSS", "level": "Avanzado" },
-      { "name": "JavaScript", "level": "Avanzado", "tags": ["ES6+"] },
-      { "name": "jQuery", "level": "Avanzado" },
-      { "name": "Bootstrap", "level": "Avanzado" },
-      { "name": "React", "level": "Intermedio" },
-      { "name": "Next.js", "level": "Intermedio" },
-      { "name": "Angular", "level": "Intermedio", "tags": ["v19"] },
-      { "name": "TypeScript", "level": "Intermedio" },
-      { "name": "Web Components / JS nativo", "level": "Intermedio" }
+      {
+        "name": "HTML",
+        "level": "Avanzado"
+      },
+      {
+        "name": "CSS",
+        "level": "Avanzado"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Avanzado",
+        "tags": [
+          "ES6+"
+        ]
+      },
+      {
+        "name": "jQuery",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Avanzado"
+      },
+      {
+        "name": "React",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Next.js",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Angular",
+        "level": "Intermedio",
+        "tags": [
+          "v19"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Web Components / JS nativo",
+        "level": "Intermedio"
+      }
     ]
   },
   {
@@ -21,21 +57,58 @@
     "title": "Backend",
     "subtitle": "APIs, servicios y microservicios",
     "items": [
-      { "name": "Node.js", "level": "Intermedio" },
-      { "name": "Express.js", "level": "Intermedio" },
-      { "name": "Passport.js (sesiones)", "level": "Intermedio" },
-      { "name": "JWT", "level": "Intermedio" },
-      { "name": "Java", "level": "Intermedio" },
-      { "name": "Spring Boot (microservicios)", "level": "Intermedio" },
-      { "name": "Hibernate", "level": "Intermedio" },
-      { "name": "ASP (plataformas internas)", "level": "Intermedio" },
-      { "name": "Visual Basic Scripts", "level": "Básico" },
-      { "name": "Python", "level": "Intermedio" },
-      { "name": "Flask", "level": "Intermedio" },
-      { "name": "C#", "level": "Intermedio" },
-      { "name": ".NET", "level": "Intermedio" }
-
-
+      {
+        "name": "Node.js",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Express.js",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Passport.js (sesiones)",
+        "level": "Intermedio"
+      },
+      {
+        "name": "JWT",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Java",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Spring Boot (microservicios)",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Hibernate",
+        "level": "Intermedio"
+      },
+      {
+        "name": "ASP (plataformas internas)",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Visual Basic Scripts",
+        "level": "Básico"
+      },
+      {
+        "name": "Python",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Flask",
+        "level": "Intermedio"
+      },
+      {
+        "name": "C#",
+        "level": "Intermedio"
+      },
+      {
+        "name": ".NET",
+        "level": "Intermedio"
+      }
     ]
   },
   {
@@ -43,13 +116,34 @@
     "title": "Bases de datos",
     "subtitle": "Modelado, queries y mantenimiento",
     "items": [
-      { "name": "SQL Server", "level": "Avanzado" },
-      { "name": "MySQL", "level": "Intermedio" },
-      { "name": "MariaDB", "level": "Intermedio" },
-      { "name": "MongoDB", "level": "Intermedio" },
-      { "name": "Firebase", "level": "Intermedio" },
-      { "name": "PostgreSQL", "level": "Básico" },
-      { "name": "SQLite", "level": "Básico" }
+      {
+        "name": "SQL Server",
+        "level": "Avanzado"
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermedio"
+      },
+      {
+        "name": "MariaDB",
+        "level": "Intermedio"
+      },
+      {
+        "name": "MongoDB",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Firebase",
+        "level": "Intermedio"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "Básico"
+      },
+      {
+        "name": "SQLite",
+        "level": "Básico"
+      }
     ]
   },
   {
@@ -57,11 +151,26 @@
     "title": "Testing",
     "subtitle": "Calidad y automatización",
     "items": [
-      { "name": "Jest", "level": "Intermedio" },
-      { "name": "Playwright", "level": "Intermedio" },
-      { "name": "React Testing Library", "level": "Intermedio" },
-      { "name": "JUnit", "level": "Intermedio" },
-      { "name": "Postman", "level": "Intermedio" }
+      {
+        "name": "Jest",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Playwright",
+        "level": "Intermedio"
+      },
+      {
+        "name": "React Testing Library",
+        "level": "Intermedio"
+      },
+      {
+        "name": "JUnit",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Postman",
+        "level": "Intermedio"
+      }
     ]
   },
   {
@@ -69,13 +178,27 @@
     "title": "DevOps / Tools",
     "subtitle": "Flujo de trabajo y despliegue",
     "items": [
-      { "name": "Git", "level": "Intermedio" },
-      { "name": "GitHub", "level": "Intermedio" },
-      { "name": "Docker", "level": "Intermedio" },
+      {
+        "name": "Git",
+        "level": "Intermedio"
+      },
+      {
+        "name": "GitHub",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Docker",
+        "level": "Intermedio"
+      },
       {
         "name": "Stack MERN",
         "level": "Intermedio",
-        "tags": ["MongoDB", "Express", "React", "Node"]
+        "tags": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Node"
+        ]
       }
     ]
   },
@@ -84,17 +207,32 @@
     "title": "Colaboración",
     "subtitle": "Trabajo en equipo y comunicación",
     "items": [
-      { "name": "Trabajo en equipo", "level": "Avanzado" },
-      { "name": "Comunicación", "level": "Avanzado" },
-      { "name": "Organización de tareas", "level": "Intermedio" },
-      { "name": "Aprendizaje continuo", "level": "Avanzado" }
+      {
+        "name": "Trabajo en equipo",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Comunicación",
+        "level": "Avanzado"
+      },
+      {
+        "name": "Organización de tareas",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Aprendizaje continuo",
+        "level": "Avanzado"
+      }
     ]
   },
   {
     "id": "languages",
     "title": "Idiomas",
     "items": [
-      { "name": "Inglés (B2)", "level": "Intermedio" }
+      {
+        "name": "Inglés (B2)",
+        "level": "Intermedio"
+      }
     ]
   }
 ]
